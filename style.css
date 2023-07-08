@@ -1,0 +1,38 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pf-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+.pf-prymary {
+  color: #fd6e0a;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+nav li a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 50px;
+}
+.primary-btn {
+  border-radius: 5px;
+  background: #fd6e0a;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 35px;
+}
